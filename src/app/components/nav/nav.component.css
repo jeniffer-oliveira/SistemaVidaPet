@@ -8,6 +8,11 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,248,238,1) 0%, rgba(223,249,238,1) 100%);
 }
 
+#button{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(195,246,233,0.9590834697217676) 47%);
+
+}
+
 .sidenav a{
     color: #20b2aa;
 }
