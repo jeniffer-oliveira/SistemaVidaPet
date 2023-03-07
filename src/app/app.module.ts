@@ -13,6 +13,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
 @NgModule({
@@ -32,6 +33,7 @@ import {MatTableModule} from '@angular/material/table';
     MatSnackBarModule,
     MatCheckboxModule,
     MatToolbarModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
