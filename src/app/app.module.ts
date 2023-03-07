@@ -19,6 +19,7 @@ import { MatSelectModule } from '@angular/material/select';
 import {MatTableModule} from '@angular/material/table';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent
@@ -40,6 +41,7 @@ import { MatInputModule } from '@angular/material/input';
     MatSelectModule,
     MatRadioModule,
     MatInputModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
