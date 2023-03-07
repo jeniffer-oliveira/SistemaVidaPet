@@ -27,6 +27,7 @@ import { MatCardModule } from '@angular/material/card';
 import { NavComponent } from './components/nav/nav.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FuncionariosComponent } from './components/funcionarios/funcionarios.component';
+import { ServicosComponent } from './components/servicos/servicos.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { FuncionariosComponent } from './components/funcionarios/funcionarios.co
     AppComponent,
     NavComponent,
     HeaderComponent,
-    FuncionariosComponent
+    FuncionariosComponent,
+    ServicosComponent
   ],
   imports: [
     BrowserModule,
