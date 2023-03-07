@@ -20,6 +20,8 @@ import {MatTableModule} from '@angular/material/table';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -41,7 +43,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatSelectModule,
     MatRadioModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
