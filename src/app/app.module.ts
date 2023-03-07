@@ -28,6 +28,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FuncionariosComponent } from './components/funcionarios/funcionarios.component';
 import { ServicosComponent } from './components/servicos/servicos.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { ServicosComponent } from './components/servicos/servicos.component';
     NavComponent,
     HeaderComponent,
     FuncionariosComponent,
-    ServicosComponent
+    ServicosComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
