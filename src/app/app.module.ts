@@ -17,6 +17,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
 import {MatTableModule} from '@angular/material/table';
+import { MatRadioModule } from '@angular/material/radio';
 @NgModule({
   declarations: [
     AppComponent
@@ -36,6 +37,7 @@ import {MatTableModule} from '@angular/material/table';
     MatToolbarModule,
     MatSidenavModule,
     MatSelectModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
