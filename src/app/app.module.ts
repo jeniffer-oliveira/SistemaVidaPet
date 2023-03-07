@@ -25,8 +25,8 @@ import { MatCardModule } from '@angular/material/card';
 
 /* componentes */
 import { NavComponent } from './components/nav/nav.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FuncionariosComponent } from './components/funcionarios/funcionarios.component';
+import { HeaderComponent } from './components/pages-adm/funcionarios/header/header.component';
+import { FuncionariosComponent } from './components/pages-adm/funcionarios/funcionarios.component';
 
 @NgModule({
   declarations: [
