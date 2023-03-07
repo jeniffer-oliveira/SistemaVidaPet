@@ -12,6 +12,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
 @NgModule({
@@ -30,6 +31,7 @@ import {MatTableModule} from '@angular/material/table';
     MatPaginatorModule,
     MatSnackBarModule,
     MatCheckboxModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
