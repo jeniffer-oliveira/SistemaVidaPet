@@ -18,6 +18,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
 import {MatTableModule} from '@angular/material/table';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatInputModule } from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent
@@ -37,7 +38,8 @@ import { MatRadioModule } from '@angular/material/radio';
     MatToolbarModule,
     MatSidenavModule,
     MatSelectModule,
-    MatRadioModule
+    MatRadioModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
