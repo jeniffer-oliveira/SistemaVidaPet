@@ -11,6 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
 @NgModule({
@@ -28,6 +29,7 @@ import {MatTableModule} from '@angular/material/table';
     MatFormFieldModule,
     MatPaginatorModule,
     MatSnackBarModule,
+    MatCheckboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
