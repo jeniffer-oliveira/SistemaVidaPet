@@ -26,12 +26,14 @@ import { MatCardModule } from '@angular/material/card';
 /* componentes */
 import { NavComponent } from './components/nav/nav.component';
 import { HeaderComponent } from './components/header/header.component';
+import { FuncionariosComponent } from './components/funcionarios/funcionarios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HeaderComponent
+    HeaderComponent,
+    FuncionariosComponent
   ],
   imports: [
     BrowserModule,
