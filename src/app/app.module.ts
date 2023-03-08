@@ -21,7 +21,6 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { MatCardModule } from '@angular/material/card';
 
 /* componentes */
 import { NavComponent } from './components/nav/nav.component';
@@ -59,7 +58,6 @@ import { HomeComponent } from './components/home/home.component';
     MatInputModule,
     MatIconModule,
     MatListModule,
-    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
