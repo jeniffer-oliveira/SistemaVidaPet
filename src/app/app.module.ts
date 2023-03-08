@@ -25,8 +25,8 @@ import { MatListModule } from '@angular/material/list';
 /* componentes */
 import { NavComponent } from './components/nav/nav.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FuncionariosComponent } from './components/funcionarios/funcionarios.component';
-import { ServicosComponent } from './components/servicos/servicos.component';
+import { FuncionariosComponent } from './components/funcionarios-list/funcionarios.component';
+import { ServicosComponent } from './components/servicos-list/servicos.component';
 import { HomeComponent } from './components/home/home.component';
 
 
